@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1b1f38; /* Background geral */
+    color: #e4e4e4; /* Texto principal */
+}
+
+header, nav, footer {
+    background-color: #283593; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #bb86fc; /* Roxo claro */
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+    background-color: #232946; /* Azul profundo */
+}
+
+article {
+    flex: 3;
+    padding: 1em;
+    background-color: #121629; /* Fundo escuro para contraste */
+    color: #e4e4e4; /* Texto de artigo */
+    margin-right: 1em;
+    border: 1px solid #4f5d75; /* Borda cinza */
+}
+
+aside {
+    flex: 1;
+    padding: 1em;
+    background-color: #283593; /* Azul escuro para combinação */
+    color: #e4e4e4; /* Texto do aside */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Adicionando efeitos de hover para os links */
+nav ul li a:hover {
+    color: #03dac5; /* Verde água */
+}
